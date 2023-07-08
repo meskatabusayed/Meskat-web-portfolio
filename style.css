@@ -101,7 +101,7 @@ body{
     border-radius: 10px;
     background: #FFF8F3;
 } 
-.about-title{
+.section-title{
     color:  #181818;
     text-align: center;
     font-size: 35px;
@@ -110,7 +110,7 @@ body{
     margin-bottom: 30px;
     
 }
-.about-desc{
+.section-desc{
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -137,4 +137,49 @@ body{
 .description-info{
     color:black;
     font-weight: bold;
+}
+.section-desc{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 345px;
+    padding-right: 346px;
+}
+.Me-section-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 260px 0 260px;
+    
+}
+.me-section-content{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 267px;
+    height: 377px;
+    margin-right: 24px;
+    
+
+}
+.skills-photo{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.skills-title{
+    padding-top: 30px;
+    color: #181818;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    
+}
+.skills-description{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding:0  33px 30px 33px;
 }
