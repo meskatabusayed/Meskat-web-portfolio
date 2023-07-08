@@ -10,12 +10,20 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+.header{
+    background: #FFF8F3;
+    background-image: url("images/header_bg.png"); 
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+    
+}
 .nav-container{
     display: flex;
     justify-content: space-around;
-    background: #FFF8F3;
-    align-items: center;
     padding: 30px;
+    align-items: center;
+    
 }
 .nav-title{
     color: #181818;
@@ -42,12 +50,49 @@ body{
 }
 .btn{
     width: 150px;
-    height: 64px;
+    height: 44px;
     border-radius: 5px;
     background: #FD6E0A;
     color:  #FFF;
     font-size: 20px;
     font-weight: 700;
 
+}
+.banner-main{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.banner-photo{
+    width: 600px;
+    
+}
+.title-gretting{
+    color:#474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.title-1{
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.description{
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+    width: 585px;
+}
+.btn{
+    margin-right: 54px;
 }
     
